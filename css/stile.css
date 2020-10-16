@@ -1,0 +1,118 @@
+.card-full-height
+    {
+        height: 100%;
+    }
+
+.body {
+    font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: rgb(0, 174, 236);
+}
+
+footer{
+    background-color: rgb(35, 55, 94);
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.price{
+    color: limegreen;
+    font-size:2rem
+}
+
+.btn-white{
+    background-color: white;
+    color: blue;
+    
+}
+
+/* HEADER SECTION */
+
+.header-top {
+    background-color: rgb(0, 174, 236);
+    color: #ffffff;
+    font-size: 0.75rem;
+    }
+.header-top a {
+  color: #ffffff;
+}
+.header-main-menu a {
+    font-size: 1.2rem;
+    font-weight: 350;
+}
+
+/* HOME PROMO SECTION */
+
+.home-promo .container {
+  position: relative;
+  z-index: 99;
+}
+.home-promo i,
+.home-promo h1 span{
+    color: rgb(0, 174, 236);
+}
+.home-promo p {
+    font-size: 1.2rem
+} 
+.home-promo .btn {
+  text-transform: uppercase;
+  background-color: #3a455c;
+  border-radius: 25px;
+  border-color: #3a455c;
+  font-size: 0.95rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.home-promo{
+    background-image: url(../images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.home-promo::after {
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: block;
+  position: absolute;
+  z-index: 0;
+}
+.home-promo h1{
+    font-size: 3.6rem;
+    font-weight: 900;
+}
+
+/* SEARCH SECTION */
+.search .container {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.search label {
+  font-weight: bold;
+}
+.search select,
+.search input{
+    border-radius: 25px;
+    background-color: #f5f5f5;
+}
+.search .btn{
+    border-radius: 25px;
+    border-color: rgb(0, 174, 236);
+    color: rgb(0, 174, 236);
+    background-color: #ffffff;
+}
+.circle {
+    border-radius: 50%;
+    
+}
